@@ -2,14 +2,14 @@
 
 ![Cloudsound](http://f.cl.ly/items/0f2E0y1V2i0W3U0e3u0E/cloudsound.png)
 
-Run the web app with:
+Para ejecutar la aplicación:
 
     $ duct app.rb
 
-(see [duct](https://github.com/porras/duct) for more info; if you don't want to install it you can also run it manually after you install the dependencies specified at the bottom of the file)
+(ver [duct](https://github.com/porras/duct) para más información; si no quieres instalarlo, tambi[en puedes ejecutar la aplicación directamente con Ruby, siempre que primero instales las dependencias especificadas al final del archivo)
 
-Run the script with:
+Después puedes ejecutar el script con:
 
-    $ ruby mixtape.rb [duration in minutes]
+    $ ruby mixtape.rb [duración en minutos]
 
-Default is 45.
+La duración por defecto son 45 minutos.

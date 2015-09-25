@@ -1,4 +1,4 @@
-my_enum = Enumerator.new { raise '💣' } # nothing happens
+my_enum = Enumerator.new { raise '💣' } # no pasa nada
 
 p my_enum.respond_to?(:each) # true
 p my_enum.is_a?(Enumerable)  # true
